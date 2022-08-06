@@ -32,19 +32,7 @@ section{
   
 }
 /* text elements */
-h1{
-    font-family:'Arvo', serif;
-    color: #ffe48a;
-    font-size: 48px;
-    font-weight: bold;
-    line-height: 35px;
-    text-align: left;
-    margin-left: 50px;
-    text-shadow: 4px 4px black;
-    padding: 0px;
-    letter-spacing: 10px;
 
-}
 h2{
     font-family:'Arvo', serif;
     font-size: 36px;
@@ -60,25 +48,16 @@ p{
     
 }
 #hometitle{
-    margin-right: 300px;
+
 }
 
-.home-paragraphs{
-    text-align: center;
-    font-family: 'Arvo', serif;
-    font-size: 28px;
-    color:#A68C38;
-    text-shadow: 2px 2px black;
-}
 
 #home_paragraph{
     line-height: 45px;
     font-size: 32px;
     padding: 50px;
 }
-.center_div{
-    text-align: center;
-}
+
 /* main content */
 .home_body{
     background-color: #0007B3;
@@ -90,33 +69,74 @@ p{
 #pictures{
     display: grid;
     justify-content: center;
+    width:100%;
     grid-template-columns: 1fr 1fr 1fr;
     margin: 0px;
     margin-left: 0;
     margin-right: 0;
     background-color: black;
-    padding:40px;
+
     
 }
 
 .col{
     margin-inline: auto;
     padding:0px;
+    width:100%;
 }
 
 .icons{
     width: 30px;
     height:30px;
 }
+
+#bigtitle{
+    font-family:'Arvo', serif;
+    color: #ffe48a;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 35px;
+    text-align: left;
+    text-shadow: 4px 4px black;
+    padding: 0px;
+    letter-spacing: 8px;
+}
 .nav_icons{
     display:flex;
-    gap:80px;
+    gap:10px;
     align-items: center;
-    padding-left:275px ;
-    padding-right: 0px;
-    margin-right:5px;
+    justify-content: end;
+    margin-left:35%;
+}
+#iconcontainer{
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+@media only screen and (min-width: 600px){
+    .nav_icons{
+        display:flex;
+        gap:10px;
+        align-items: center;
+        justify-content:space-around;
+        margin-left:15%;
+    }
+    #bigtitle{
+        font-family:'Arvo', serif;
+        color: #ffe48a;
+        font-size: 40px;
+        font-weight: bold;
+        line-height: 35px;
+        text-align: left;
+        text-shadow: 4px 4px black;
+        padding: 0px;
+        letter-spacing: 5px;
+    }
     
 }
+
+
+
 
 .home_buttons{
     margin-bottom: 80px;
@@ -125,11 +145,47 @@ p{
     align-items: center;  
     display: flex;
     justify-content: center;
-    gap: 75px;
+    width: 100%;
+    gap:20px;
+}
+.center_div{
+    text-align: center;
+    width: 15%;
+}
+.center_div img{
+    width: 100%;
+    height: auto;
+}
+.home-paragraphs{
+    text-align: center;
+    font-family: 'Arvo', serif;
+    font-size: 14px;
+    color:#A68C38;
+    text-shadow: 2px 2px black;
 }
 
+
+@media only screen and (min-width: 600px){
+    .home-paragraphs{
+        text-align: center;
+        font-family: 'Arvo', serif;
+        font-size: 28px;
+        color:#A68C38;
+        text-shadow: 2px 2px black;
+    }
+}
+
+
+
+
+
+
+
+
+
 .homeimages{
-    width:700px
+    width:100%;
+    height: auto;
 }
 
 .home_link{
@@ -161,7 +217,7 @@ p{
 nav{
     background-color: rgba(255, 248, 13 ,.75);
     display: flex;
-    flex: 200px 1;
+
     align-items: center;
     height: 70px;
 }
@@ -172,10 +228,33 @@ nav{
     margin-left: 40px;
 }
 
+
+
+/* @media only screen and (max-width: 800){
+    #logoimage{
+        width:100px;
+        height:105px;
+    }
+}
+@media only screen and (min-width: 800)and (max-width: 1320){
+    #logoimage{
+        width:125px;
+        height:125px;
+    }
+}
+@media only screen and (min-width: 1320){
+    #logoimage{
+        width:170px;
+        height:180px;
+    }
+} */
+
 #logoimage{
     width:170px;
     height:180px;
 }
+
+
 
 nav ul {
     display: flex;
