@@ -1,0 +1,438 @@
+/* Color Scheme
+#FFF80D - yellow color
+#E8960C - orange background
+#0007B3 - blue 
+#F2D36B - yellow text color
+#FFE48A
+#A68C38
+*/
+
+.body_content{
+    background-color: #E8960C;
+    margin-inline:auto;
+    /* min-width: 1080px;
+    max-width: 1224px; */
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+    word-spacing: 1px;
+    line-height: 24px;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:0;
+    margin-bottom:0;
+    Padding:0px;
+    
+}
+
+section{
+    background-color: RGB(242, 211, 107, 0.5);
+    padding: 2px;
+    min-height: 910px;
+    height: 100%;
+  
+}
+/* text elements */
+h1{
+    font-family:'Arvo', serif;
+    color: #ffe48a;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 35px;
+    text-align: left;
+    margin-left: 50px;
+    text-shadow: 4px 4px black;
+    padding: 0px;
+    letter-spacing: 10px;
+
+}
+h2{
+    font-family:'Arvo', serif;
+    font-size: 36px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+    line-height: 40px;
+    letter-spacing: 3px;
+}
+
+p{
+    text-align: center;
+    
+}
+#hometitle{
+    margin-right: 300px;
+}
+
+.home-paragraphs{
+    text-align: center;
+    font-family: 'Arvo', serif;
+    font-size: 28px;
+    color:#A68C38;
+    text-shadow: 2px 2px black;
+}
+
+#home_paragraph{
+    line-height: 45px;
+    font-size: 32px;
+    padding: 50px;
+}
+.center_div{
+    text-align: center;
+}
+/* main content */
+.home_body{
+    background-color: #0007B3;
+   margin-top:60px;
+   margin-bottom:40px;
+    height: 500px;
+
+}
+#pictures{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0px;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: black;
+    padding:40px;
+    
+}
+
+.col{
+    margin-inline: auto;
+    padding:0px;
+}
+
+.icons{
+    width: 30px;
+    height:30px;
+}
+.nav_icons{
+    display:flex;
+    gap:80px;
+    align-items: center;
+    padding-left:275px ;
+    padding-right: 0px;
+    margin-right:5px;
+    
+}
+
+.home_buttons{
+    margin-bottom: 80px;
+    padding-top: 50px;
+    padding-bottom:40px;
+    align-items: center;  
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+}
+
+.homeimages{
+    width:700px
+}
+
+.home_link{
+    font-family:'Arvo', serif;
+    color:white;
+    border-radius: 10px;
+    background-color: black;
+    text-decoration: none;
+    justify-content: center;
+    padding: 20px;
+    border: 3px solid wheat;
+
+}
+
+.home_link:hover{
+    opacity: 50%;
+   
+}
+
+
+#home_reservelink{
+    text-align: center;
+    margin-top: 60px;
+    
+}
+
+
+/* ---------navigation bar --------------*/
+nav{
+    background-color: rgba(255, 248, 13 ,.75);
+    display: flex;
+    flex: 200px 1;
+    align-items: center;
+    height: 70px;
+}
+
+#imagediv{
+    width:196px;
+    height:195px;
+    margin-left: 40px;
+}
+
+#logoimage{
+    width:170px;
+    height:180px;
+}
+
+nav ul {
+    display: flex;
+    width:100%;
+    justify-content:space-around;
+    list-style: none;
+    text-align: right;
+    padding:0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    word-spacing: 4px;
+    margin-right:60px;
+    margin-left:60px;
+
+}
+nav ul li{
+    font-family:'Arvo', serif;
+    font-size: 18px;
+    letter-spacing: 5px;
+    line-height: 30px;
+    text-align:center;
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    padding-top:8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right:20px;
+    border:none;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right:20px;
+    background-color: black;
+    border: 3px solid #ffe48a;
+    border-radius: 8px;
+    box-shadow: 4px 4px 7px grey;
+}
+
+/* mouse goes over link */
+nav li a:hover{
+        background-color:#F2D36B ;
+        font-size: 24px;
+        opacity: 60%;
+        transition-duration: 0.5s; 
+    }
+
+/* when link is clicked */
+nav li a:active{
+    background-color: #0007B3;
+}
+
+
+/* buy tickets formatting */
+
+.col_buytickets{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+    
+}
+.gallery_buytickets{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 2fr 2fr 2fr ;
+    text-align: center;
+    justify-content: center;
+    padding-right: 300px;
+    padding-left: 300px;
+    min-height: 400px;
+
+}
+
+.img_buytickets{
+    background-color:#FFE48A ;
+    padding: 10px;
+    height: 420px;
+    width:245px;
+    margin-bottom: 30px;
+}
+
+
+.buytickets_links{
+    text-decoration: none;
+    color:white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 2.25px white;
+}
+
+.buytickets_links:hover{
+    opacity: 50%;
+}
+
+.buytickets_titles{
+    font-size: 36px;
+    font-weight: bold;
+    text-shadow: 2px 2px gray;
+    width:400px;
+    line-height: 45px;
+    text-align: center;
+    margin: auto;
+
+
+}
+/* prices formatting */
+.prices_div{
+    display: flex;  
+    gap:40px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-left: 80px;
+    padding-right:80px;
+    height:180px;
+    
+}
+
+.prices_div2{
+    background-color:rgba(242, 211, 107 ,.8);
+    border: 2px solid black;
+   
+    
+}
+
+#prices-link{
+    font-size: 18px;
+    background-color: black;
+    border-radius: 8px;
+    text-decoration: none;
+    color:white;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right:20px;
+    box-shadow: 2px 2px 2px grey;
+    
+
+}
+
+#prices-subtitle{
+    text-align: center;
+    font-size: 30px;
+}
+
+.prices-paragraphs{
+    font-size: 24px;
+    letter-spacing: 3px;
+    font-weight:bold;
+}
+
+.prices-paragraphs2{
+    padding: 12px;
+}
+
+
+
+
+
+/* Contact Formatting */
+.contact_div{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding:20px;
+    margin-top:10px;
+    margin-bottom:90px;
+    margin-left: 100px;
+    margin-right:100px;
+    height: 200px;
+    
+    
+}
+.contact_div2{
+    background-color:rgba(242, 211, 107 ,.8);
+    margin:40px;
+    padding: 40px;
+}
+.contact_titles{
+    font-size: 28px;
+    font-weight: bold; 
+}
+
+#contact_map{
+   text-align: center;
+   padding: 80px;
+}
+/* FAQ Page formatting */
+dl{
+    
+    padding-right: 250px;
+    padding-left: 250px
+}
+dt{
+    font-size: 30px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(242, 211, 107 ,.4);
+}
+dd{
+    padding:30px;
+    font-size: 24px;
+    line-height: 35px;
+}
+
+/* career formatting */
+#career_paragraph{
+    font-size: 24px;
+    padding-left:300px;
+    padding-right:300px;
+    padding-bottom: 50px;
+    line-height: 30px;
+    
+}
+
+/* footer for whole site */
+footer{
+    background-color:#FFF80D;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.footer_styles ul{
+    list-style: none;
+    text-align: center;
+    padding:0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    word-spacing: 12px;
+}
+
+.footer_styles ul li{
+    font-family:'Arvo', serif;
+    font-size: 12px;
+    letter-spacing: 5px;
+    line-height: 10px;
+    text-align:center;
+    display: inline-block;
+    border:none;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 32px;
+    padding-right:32px;
+    
+}
+.footer_styles ul li a{
+    text-decoration: none;
+    word-spacing: 1px;
+    letter-spacing: 2px;
+    color:black;
+}
+
+
+
+
